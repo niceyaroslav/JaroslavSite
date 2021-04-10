@@ -326,7 +326,8 @@ footer {
     }
 
     .profile > img {
-        resize: inherit;
+        max-width: 100%;
+        height: auto;
     }
 
 }
