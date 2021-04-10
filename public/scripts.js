@@ -4,6 +4,7 @@ function handlePopup(name) {
     popup.classList.replace("hidden", "show");
 }
 
+
 function closePopup(name) {
     let popup = document.getElementById(name);
     popup.classList.replace("show", "hidden");
@@ -19,4 +20,3 @@ function hamburgerHandler() {
         icon.innerHTML = '<i class="fa fa-bars"></i>';
     }
 }
-
