@@ -103,9 +103,8 @@ header > h1 {
     justify-content: center;
 }
 .profile > img {
-    /*margin: 20px;*/
+    margin: 20px;
     width: 400px;
-
 }
 
 .about > h1 {
@@ -261,10 +260,11 @@ header > h1 {
 .mail, #ic-author, #h-author {
     color: purple;
     font-family: 'Lato', sans-serif;
+    font-size: 25px;
     margin: 10px;
     justify-self: center;
     text-align: center;
-    width: 40%;
+    width: 60%;
 }
 
 #ic-author > a {
@@ -282,7 +282,7 @@ header > h1 {
 }
 
  .links > a > img{
-    width: 30px;
+    width: 60px;
 }
 
 .links {
@@ -326,9 +326,9 @@ footer {
     }
 
     .profile > img {
-        width: 50vw;
-        height: auto;
+        resize: inherit;
     }
+
 }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media only screen and (max-device-width: 800px) {
