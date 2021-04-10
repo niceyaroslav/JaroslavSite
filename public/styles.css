@@ -174,7 +174,7 @@ header > h1 {
     background-color: white;
     position: absolute;
     left: 22vw;
-    /*right: 25vw;*/
+    right: 22vw;
     font-size: 20px;
     display: flex;
     flex-direction: column;
