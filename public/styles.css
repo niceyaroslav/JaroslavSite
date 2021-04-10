@@ -47,6 +47,7 @@
     text-align: center;
     padding: 20px 0;
     font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
     color: white;
     text-decoration: none;
 }
@@ -102,8 +103,9 @@ header > h1 {
     justify-content: center;
 }
 .profile > img {
-    margin: 20px;
-    width: 300px;
+    /*margin: 20px;*/
+    width: 400px;
+
 }
 
 .about > h1 {
@@ -328,12 +330,13 @@ footer {
     .hamburger.responsive {position: relative;}
     .hamburger.responsive {
         display: flex;
-        width: 100px;
+        width: 200px;
         background-color: black;
         position: absolute;
         top: 5vh;
         right: 0;
         flex-wrap: wrap;
+        font-size: 40px;
         align-items: center;
     }
 }
